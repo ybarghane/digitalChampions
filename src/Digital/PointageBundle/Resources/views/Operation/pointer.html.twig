@@ -1,0 +1,23 @@
+{% extends "::template.html.twig" %}
+
+
+{% block title %}Pointage de la journée{% endblock %}
+
+
+{% block ul %}
+		<li class="active"><a href="#">pointage</a></li>
+			<li><a href="#">Historique</a></li>
+			<li><a href="#">Profil</a></li>
+			<li><a href="#">Déconnexion</a></li>
+		
+{% endblock %}
+
+{% block body %}
+			<h1 class="title" >Welcome </h1>
+			<div class="entry">
+				<p align="center"><strong>Il est 08h15, cliquez sur le bouton pour valider votre arrivée</strong><br>
+				<input type="button" value="Pointer">
+				</p>
+ 				
+			</div>
+		{% endblock %}

@@ -1,0 +1,9 @@
+pointage_homepage:
+    pattern:  /logins
+    defaults: { _controller: PointageBundle:Login:index }
+    requirements:
+        _method: GET|POST
+
+pointer_page:
+    pattern:  /pointer
+    defaults: { _controller: PointageBundle:Pointer:pointer }
